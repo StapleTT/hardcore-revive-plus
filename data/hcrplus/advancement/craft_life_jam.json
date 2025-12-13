@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Preserved Vitality"
+        },
+        "description": {
+            "text": "Craft a Life Jam"
+        },
+        "icon": {
+            "id": "minecraft:honey_bottle"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "parent": "hcrplus:root",
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hcrplus:life_jam"
+            }
+        }
+    }
+}

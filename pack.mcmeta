@@ -1,0 +1,23 @@
+{
+  "pack": {
+    "min_format": [94,1],
+    "max_format": [94,1],
+    "description": [
+        {
+          "translate": "Hardcore Revive+",
+          "color": "red"
+        },
+        {
+          "translate": " [v1.8.8]",
+          "color": "#707070"
+        },
+        {
+          "translate": "\n"
+        },
+        {
+          "translate": "by StapleTT",
+          "color": "#898f96"
+        }
+      ]
+  }
+}

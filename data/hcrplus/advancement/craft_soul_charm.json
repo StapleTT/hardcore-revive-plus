@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Not Today, Death"
+        },
+        "description": {
+            "text": "Craft a Soul Charm"
+        },
+        "icon": {
+            "id": "minecraft:ghast_tear"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "parent": "hcrplus:root",
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hcrplus:soul_charm"
+            }
+        }
+    }
+}

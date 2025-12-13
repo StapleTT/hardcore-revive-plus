@@ -1,0 +1,3 @@
+tellraw @s [{"text":"\n"},{"color":"gray","text":" Configure each feature within Hardcore Revive+ to your liking here. Hover over an "},{"color":"gray","hover_event":{"action":"show_text","value":[{"text":"Information"}]},"text":"ⓘ"},{"color":"gray","text":" icon to get a description of what a setting does."},{"text":"\n\n"},{"color":"red","text":"                          "},{"click_event":{"action":"run_command","command":"/trigger _hcrplus_settings"},"color":"red","hover_event":{"action":"show_text","value":[{"text":"Click to proceed to the settings page"}]},"text":"Continue"},{"text":"\n\n"},{"color":"gray","text":" Open chat (T) and use your cursor to click UI"},{"text":"\n"}]
+
+playsound entity.experience_orb.pickup player @s ~ ~ ~ 0.6 1

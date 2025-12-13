@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hcrplus:soul_charm"
+            }
+        }
+    },
+    "rewards": {
+        "function": "hcrplus:items/soul_charm"
+    }
+}

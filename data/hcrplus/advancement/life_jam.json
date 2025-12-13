@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hcrplus:life_jam"
+            }
+        }
+    },
+    "rewards": {
+        "function": "hcrplus:items/life_jam"
+    }
+}

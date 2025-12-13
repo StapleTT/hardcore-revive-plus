@@ -1,0 +1,6 @@
+team join 0 @a[scores={Lives=0}]
+team join 1 @a[scores={Lives=1}]
+team join 2 @a[scores={Lives=2}]
+team join 3 @a[scores={Lives=3}]
+team join 4 @a[scores={Lives=4}]
+team join 5 @a[scores={Lives=5}]

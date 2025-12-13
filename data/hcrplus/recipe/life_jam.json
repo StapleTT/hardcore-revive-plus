@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "RER",
+        " B "
+    ],
+    "key": {
+        "#": "minecraft:totem_of_undying",
+        "R": "minecraft:redstone_block",
+        "E": "minecraft:experience_bottle",
+        "B": "minecraft:bone_block"
+    },
+
+    "result": {
+      "id": "minecraft:honey_bottle",
+      "components": {
+        "minecraft:item_name": {"text":"Life Jam","color":"gold"},
+        "minecraft:lore": [
+            ["Restores 1 life upon consumption"]
+        ],
+        "minecraft:enchantments": {
+          "minecraft:mending": 1
+        },
+        "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments"
+        ]
+      },
+      "minecraft:max_stack_size": 1
+      },
+      "count": 1
+    }
+}
