@@ -25,6 +25,9 @@ execute as @a[scores={lifeReset=1..}] if score mnc_settings mnc_defaultLives mat
 # Ghost particles
 execute at @a[gamemode=spectator,scores={Lives=..0}] run particle dust{color:[1.000,1.000,1.000],scale:1} ~ ~1.5 ~ 0.5 0.5 0.5 0 2 force
 
+# Ghost proximity alert (actionbar one-time per proximity event)
+function hcrplus:events/ghost_near
+
 # Possess
 execute if score mnc_settings mnc_possession matches 1 at @a[gamemode=spectator,scores={Lives=..0}] run tag @a[distance=..0.5,gamemode=survival] add Possessed
 effect give @a[tag=Possessed] minecraft:strength 1 0 true
