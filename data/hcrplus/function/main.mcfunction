@@ -48,6 +48,9 @@ execute if score mnc_settings mnc_nameColors matches 1 if score mnc_settings mnc
 # Set player teams
 execute unless score mnc_settings mnc_defaultLives matches 1 run function hcrplus:lives/join_teams
 
+# Set cooldown timer for ghost proximity alert
+execute as @a[tag=!nHrCheck] unless score @s hcrplus_ghostCooldown matches 0.. run scoreboard players set @s hcrplus_ghostCooldown 0
+
 # Set lives for new players
 execute unless score mnc_settings mnc_openedSettings matches 1 as @a[tag=!nHrCheck] run function hcrplus:settings/join_prompt
 tag @a add nHrCheck

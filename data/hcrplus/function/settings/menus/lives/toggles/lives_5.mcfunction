@@ -1,5 +1,5 @@
 scoreboard players set mnc_settings mnc_defaultLives 5
-scoreboard players set @a Lives 5
+scoreboard players set @a[scores={Lives=1..}] Lives 5
 
 function hcrplus:settings/menus/lives/page1
 
