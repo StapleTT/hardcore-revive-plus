@@ -26,6 +26,8 @@ scoreboard objectives add minute dummy
 scoreboard objectives add second dummy
 scoreboard objectives add mnc_announceRevive dummy
 scoreboard objectives add mnc_autoReviveTimer dummy
+scoreboard objectives add hcrplus_ghostAlert dummy
+scoreboard objectives add hcrplus_ghostCooldown dummy
 
 # Revive timer because Minecraft doesn't have a built-in way to do this
 scoreboard objectives add dummy_1200 dummy
